@@ -143,6 +143,7 @@ public class ProductService extends RestClientBase {
      * @throws NotFoundException if no product found for the given ID.
      */
     public void deleteProduct(Product product) {
+    	
 
         Response response = baseTarget
                 .path(PRODUCT_SERVICE_URL + ID_TEMPLATE)
